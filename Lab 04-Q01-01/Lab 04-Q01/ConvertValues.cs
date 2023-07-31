@@ -15,9 +15,9 @@ namespace Lab_04_Q01
             Console.WriteLine("Enter the km value: ");
             km= double.Parse(Console.ReadLine());
 
-            double cm = km * 100000;
+            double m = km * 1000;
 
-            Console.WriteLine("cm value is: " + cm);
+            Console.WriteLine("m value is: " + m);
             Console.ReadKey();
         }
     }
